@@ -1,0 +1,28 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://new_dynamicfont.tres" type="DynamicFont" id=1]
+[ext_resource path="res://2ade99698d7b39b1d7ef2adbc5f30128.webp" type="Texture" id=2]
+[ext_resource path="res://pp.gd" type="Script" id=3]
+
+[node name="player-base" type="Node2D"]
+
+[node name="pp" type="Sprite" parent="."]
+texture = ExtResource( 2 )
+script = ExtResource( 3 )
+
+[node name="name" type="Label" parent="pp"]
+margin_left = -38.0
+margin_top = 74.0
+margin_right = 41.0
+margin_bottom = 88.0
+grow_horizontal = 2
+grow_vertical = 2
+custom_fonts/font = ExtResource( 1 )
+text = "player name"
+align = 1
+valign = 1
+
+[node name="player" type="AudioStreamPlayer2D" parent="."]
+bus = "sound_effect"
+
+[connection signal="finished" from="player" to="pp" method="_on_player_finished"]

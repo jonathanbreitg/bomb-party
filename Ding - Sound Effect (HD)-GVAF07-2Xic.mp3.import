@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Ding - Sound Effect (HD)-GVAF07-2Xic.mp3-365724b33da176ee0abe6160c18b99cc.mp3str"
+
+[deps]
+
+source_file="res://Ding - Sound Effect (HD)-GVAF07-2Xic.mp3"
+dest_files=[ "res://.import/Ding - Sound Effect (HD)-GVAF07-2Xic.mp3-365724b33da176ee0abe6160c18b99cc.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

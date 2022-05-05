@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/buzzer.mp3-5a7284b09021e7d1ffdd8f9e457e14ea.mp3str"
+
+[deps]
+
+source_file="res://buzzer.mp3"
+dest_files=[ "res://.import/buzzer.mp3-5a7284b09021e7d1ffdd8f9e457e14ea.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0
